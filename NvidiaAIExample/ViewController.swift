@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
 
     func nvidiaAIExample() {
-        let nvidiaAI = NvidiaAI( apiKey: "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");
+        let nvidiaAI = NvidiaAI( apiKey: "get key at https://www.nvidia.com/en-us/");
                     
          nvidiaAI.request("taiwan in five words or less") { ( result: String) in
             print("result: \(result)")
